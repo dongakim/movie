@@ -1,0 +1,44 @@
+.movies {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background-color: #191919;
+}
+
+.movie-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.movie-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.movie-item {
+    float: left;
+    width: 200px;
+    height: 320px;
+}
+
+@media (max-width: 440px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (min-width: 441px) and (max-width: 660px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (min-width: 661px) and (max-width: 880px) {
+    .container {
+        width: 800px;
+    }
+}

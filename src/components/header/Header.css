@@ -1,0 +1,29 @@
+.header {
+    /* position: relative; */
+    /* height: 70px; */
+    padding: 34px 0;
+}
+
+.header-inner {
+    /* position: absolute; */
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    /* padding: 20px 0; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.header-movie-search-input {
+    width: 300px;
+    height: 32px;
+    padding-left: 10px;
+    background-color: #000;
+    /* border: 1px solid #cfd1dd; */
+    border: 0;
+    border-radius: 4px;
+    color: #cfd1dd;
+    font-size: 1rem;
+}
